@@ -1,0 +1,11 @@
+org_name: nullstone
+name: aws-sendgrid-domain
+friendly_name: Sendgrid Domain
+description: Configures a domain in Sendgrid. Connect this datastore to your application via a capability to automatically configure email delivery.
+category: datastore
+type: sendgrid/aws
+appCategories: []
+layer: database
+is_public: true
+provider_types:
+    - aws
